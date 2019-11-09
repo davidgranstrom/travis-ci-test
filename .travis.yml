@@ -1,5 +1,6 @@
 language: python
+cache: pip
 install:
-  - pip3 install vim-vint
+  - pip install vim-vint
 script:
   - vint --enable-neovim --stat .
